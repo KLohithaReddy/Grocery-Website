@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grocery Store By Lohitha</title>
+
+        <link rel="icon" type="image/icon" href="image/favicon.PNG">
+
+        <!-- Code for font awesome cdn-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <!-- Code for linking css file-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!--header section-->
+        <header class="header">
+            <a href="#" class="logo"><i class="fa fa-shopping-basket"></i> grocery</a>
+
+            <nav class="navbar">
+               <a href="#home">home</a> 
+               <a href="#features">features</a> 
+               <a href="#products">products</a> 
+               <a href="#categories">categories</a> 
+               <a href="#review">review</a> 
+               <a href="#blogs">blogs</a> 
+            </nav>
+
+            <div class="icons">
+                <div class="fa fa-bars" id="menu-btn"></div>
+                <div class="fa fa-search" id="search-btn"></div>
+                <div class="fa fa-shopping-cart" id="cart-btn"></div>
+                <div class="fa fa-user" id="login-btn"></div>
+            </div>
+
+            <form class="search-form">
+                <input type="search" id="search-box" placeholder="Search Here">
+                <label for="search-box" class="fa fa-search" ></label>
+            </form>
+
+            <div class="shopping-cart">
+                <div class="box">
+                    <i class="fa fa-trash"></i  >
+                    <img src="image/cart-img-1.png">
+                    <div class="content">
+                        <h3>Watermelon</h3>
+                        <span class="price">50Rs/-</span>
+                        <span class="quantity">Qty : 1N</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fa fa-trash"></i  >
+                    <img src="image/cart-img-2.png">
+                    <div class="content">
+                        <h3>Onion</h3>
+                        <span class="price">100Rs/-</span>
+                        <span class="quantity">Qty : 1Kg</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fa fa-trash"></i  >
+                    <img src="image/cart-img-3.png">
+                    <div class="content">
+                        <h3>Chicken</h3>
+                        <span class="price">300Rs/-</span>
+                        <span class="quantity">Qty : 1Kg</span>
+                    </div>
+                </div>
+                <div class="total"> Total : 450Rs/- </div>
+                <a href="#" class="btn">Checkout</a>
+            </div>
+            <form action="#" class="login-form">
+                <h3>Login now</h3>
+                <input type="email" placeholder="your email" class="box">
+                <input type="password" placeholder="your password" class="box">
+                <p>Forgot Tour Password <a href="#"> Click Here</a></p>
+                <p>Don't Have An Account <a href="#"> Create Now</a></p>
+                <input type="submit" value="Login Now" class="btn">
+            </form>
+        </header>
+
+        <!-- home section-->
+         <section class="home" id="home">
+            <div class="content">
+                <h3>Fresh And <span>Organic</span> Products For You</h3>
+                <p>This website is Designed By Lohitha. Using HTML, CSS ans JavaScript for easy grocery shopping.</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+         </section>
+
+         <!--feature section-->
+         <section class="features" id="features">
+            <h1 class="heading"> Our<span>Features</span> </h1>
+
+            <div class="box-cantainer">
+                <div class="box">
+                    <img src="image/feature-img-1.png">
+                    <h3>Fresh And Organic</h3>
+                    <p>Fresh and organic fruits and vegetables directly to your home</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="box">
+                    <img src="image/feature-img-2.png">
+                    <h3>Fresh And Organic</h3>
+                    <p>Fresh and organic fruits and vegetables directly to your home</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+                <div class="box">
+                    <img src="image/feature-img-3.png">
+                    <h3>Fresh And Organic</h3>
+                    <p>Fresh and organic fruits and vegetables directly to your home</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <!--Product section-->
+        <section class="products" id="products">
+            <h1 class="heading">Our <span>Products</span></h1>
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <img src="image/product-1.png">
+                        <h1>Fresh Orange</h1>
+                        <div class="price"> $12.99/- - $15.99/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="image/product-2.png">
+                        <h1>Fresh Onion</h1>
+                        <div class="price"> $12.99/- - $15.99/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="image/product-3.png">
+                        <h1>Fresh Meat</h1>
+                        <div class="price"> $12.99/- - $15.99/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="image/product-4.png">
+                        <h1>Fresh Cabbage</h1>
+                        <div class="price"> $12.99/- - $15.99/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper product-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <img src="image/product-5.png">
+                        <h1>Fresh Potato</h1>
+                        <div class="price"> $12.99/- - $15.99/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="image/product-6.png">
+                        <h1>Fresh Avacado</h1>
+                        <div class="price"> $12.99/- - $15.99/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="image/product-7.png">
+                        <h1>Fresh Carrot</h1>
+                        <div class="price"> $12.99/- - $15.99/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="image/product-8.png">
+                        <h1>Fresh Lemon</h1>
+                        <div class="price"> $12.99/- - $15.99/-</div>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                        <a href="#" class="btn">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--categories section-->
+        <section class="categories" id="categories">
+            <h1 class="heading">Product <span>Categories</span></h1>
+            <div class="box-cantainer">
+                <div class="box">
+                    <img src="image/cat-1.png">
+                    <h3>Vegetables</h3>
+                    <p>Upto 45% Off</p>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+
+                <div class="box">
+                    <img src="image/cat-2.png">
+                    <h3>Fruits</h3>
+                    <p>Upto 45% Off</p>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+
+                <div class="box">
+                    <img src="image/cat-3.png">
+                    <h3>Dairy Products</h3>
+                    <p>Upto 45% Off</p>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+
+                <div class="box">
+                    <img src="image/cat-4.png">
+                    <h3>Meat</h3>
+                    <p>Upto 45% Off</p>
+                    <a href="#" class="btn">Shop Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!--Review Section-->
+        <section class="review" id="review">
+            <h1 class="heading">Customer's <span>Review</span></h1>
+            <div class="swiper review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide box">
+                        <img src="image/pic-1.png">
+                        <p>Fast delivery and great product quality – highly recommend Online Mart! Amazing customer service and a wide range of products to choose from!</p>
+                        <h3>John Doe</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="image/pic-2.png">
+                        <p>Easy-to-navigate website and fantastic deals – my go-to for shopping! Affordable prices and reliable delivery – Online Mart never disappoints!</p>
+                        <h3>Sophia</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="image/pic-3.png">
+                        <p>Great variety of products at unbeatable prices – delivery was super fast! Shopping here is so convenient, and the customer service is fantastic!</p>
+                        <h3>Noah</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide box">
+                        <img src="image/pic-4.png">
+                        <p>The website is easy to navigate, and I always find what I need quickly. Reliable delivery and excellent quality products – highly recommend!</p>
+                        <h3>Angelina</h3>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Blog Section-->
+        <section class="blogs" id="blogs">
+            <h1 class="heading">Our <span>Blogs</span></h1>
+            <div class="box-container">
+                <div class="box">
+                    <img src="image/blog-1.jpg">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"><i class="fa fa-user"></i> By User</a>
+                            <a href="#"><i class="fa fa-calendar"></i> 1st May</a>
+                        </div>
+                        <h3>Fresh And Organic Fruits And Vegetables</h3>
+                        <p>Shopping from Online Delivery Mart has completely changed my routine. I can browse through hundreds of products from the comfort of my home and have them delivered the next day. With clear product descriptions and competitive pricing, it’s a hassle-free experience every time.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="image/blog-2.jpg">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"><i class="fa fa-user"></i> By User</a>
+                            <a href="#"><i class="fa fa-calendar"></i> 1st May</a>
+                        </div>
+                        <h3>Fresh And Organic Fruits And Vegetables</h3>
+                        <p>As someone who values fresh produce, Online Delivery Mart has exceeded my expectations. The fruits and vegetables are always fresh, and the packaging ensures nothing gets damaged during transit. I also love the convenience of same-day delivery for urgent needs.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <img src="image/blog-3.jpg">
+                    <div class="content">
+                        <div class="icons">
+                            <a href="#"><i class="fa fa-user"></i> By User</a>
+                            <a href="#"><i class="fa fa-calendar"></i> 1st May</a>
+                        </div>
+                        <h3>Fresh And Organic Fruits And Vegetables</h3>
+                        <p>Online Delivery Mart has become my go-to for affordable shopping. The deals and discounts on essentials are unbeatable, and the rewards program helps me save even more. It’s a win-win for anyone looking to stick to a budget without compromising quality.</p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Footer Section-->
+        <section class="footer" id="footer"> 
+            <div class="box-container">
+                <div class="box">
+                    <h3> Groco <i class="fa fa-shopping-basket"></i></h3>
+                    <p>We deliver Fresh fruits vegetables meat and milk products online. For a fast delivery don't forget to order us..</p>
+                    <div class="share">
+                        <a href="https://www.facebook.com/profile.php?id=100076372907586&mibextid=ZbWKwL" class="fa fa-facebook"></a>
+                        <a href="https://x.com/Lohitha03868927?t=B9owS7HYRZzN5OSW_mvJ5A&s=08" class="fa fa-twitter"></a>
+                        <a href="https://www.instagram.com/lohitha_reddy_k/profilecard/?igsh=Nnh0dG85cHYxYm01" class="fa fa-instagram"></a>
+                        <a href="https://www.linkedin.com/in/lohitha-reddy-kolli-6b6668291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fa fa-linkedin"></a>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <h3> Contact Info </h3>
+                    <a href="#" class="links"><i class="fa fa-phone"></i> +1 4567891230</a>
+                    <a href="#" class="links"><i class="fa fa-phone"></i> +1 8654789202</a>
+                    <a href="#" class="links"><i class="fa fa-envelope"></i> info@example.com</a>
+                    <a href="#" class="links"><i class="fa fa-map-marker"></i> Vijayawada,India</a>
+                </div>
+
+                <div class="box">
+                    <h3> Quick Links </h3>
+                    <nav class="navbar">
+                        <a href="#home" class="links"><i class="fa fa-arrow-right"></i> Home</a>  
+                        <a href="#features" class="links"><i class="fa fa-arrow-right"></i> Features</a>
+                        <a href="#products" class="links"><i class="fa fa-arrow-right"></i> Products</a>
+                        <a href="#categories" class="links"><i class="fa fa-arrow-right"></i> Categories</a>
+                        <a href="#review" class="links"><i class="fa fa-arrow-right"></i> Review</a>       
+                        <a href="#blogs" class="links"><i class="fa fa-arrow-right"></i> Blogs</a>  
+                    </nav>  
+                </div>
+
+                <div class="box">
+                    <h3> Newsletter </h3>
+                    <p> Subscribe for latest updates</p>
+                    <input type="email" placeholder="Your Email" class="email">
+                    <input type="submit" value="Subscribe" class="btn">
+                    <img src="image/payment.png" class="payment-img">
+                </div>
+
+                
+            </div>
+
+            <div class="credit">Created By <span>Lohitha</span> | All Rights Reserved</div>
+        </section>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="js/script.js"></script>
+
+    </body>
+</html>
